@@ -48,8 +48,8 @@ header>section:last-child{
 
 main{
     display: grid;
-    margin: 0 clamp(50px, 10vw, 200px);
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    margin: 0 clamp(3rem, 10vw, 10rem);
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); 
 }
 
 article a{
@@ -76,7 +76,7 @@ article div{
     
 }
 
-@media(max-width: 580px){
+@media(max-width: 580dp){
     #container{
         grid: 23vw 42vw 28vw / 1fr;
     }
